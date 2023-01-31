@@ -1,0 +1,83 @@
+body{
+    color: #666;
+}
+header{
+    height: 70px;
+    background: #673AB7;
+}
+.logo{
+    padding: 5px;
+    width: 70px;
+    border-radius: 100px;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+    padding: 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+.splash{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/foto\ body.webp) center center fixed;
+    /*
+    background: rgb(30,0,36);
+    background: linear-gradient(90deg, rgba(30,0,36,1) 0%, rgba(97,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+*/}
+.centrado{
+    text-align: center;
+}
+.espacios{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.splash h1{
+    background: black;
+    color: white;
+    font-size: 30px;
+    display:inline-block;
+    padding: 10px;
+}
+.text{
+    margin-top: 40vh;
+}
+.splash .btn{
+    background: #673AB7;
+    color: #FFFFFF;
+}
+.content{
+        padding: 10px;
+}
+.card{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+}
+
+.card .btn{
+    float: right;
+    background-color: #673AB7;
+}
+#letras{
+    background: #F2F2F2;
+}
+.pintadito{
+    background: #999;
+    padding: 2px;
+    font-size: 30px;
+    color: white;
+}
+.frasesf i{
+    font-size: 100px;
+}
+.frases h2{
+    padding: 30px;
+}
